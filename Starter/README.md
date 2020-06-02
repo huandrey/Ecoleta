@@ -36,7 +36,6 @@ A semana **Next Level Week**, promovida pela **Rocketseat** com duração de 7 d
 **OBS:** *Implementei algumas tecnlogias a+*
 
 <h1 align="center">Acesse o <a href="https://www.notion.so/BOOSTER-acb0e3a5088843ad91338d639fd8235e">Notion</a> <br>para obter um resumo completo do evento</h1>
----
 
 ## 🚀&nbsp;&nbsp;Tecnologias Utilizadas
 - [Node](nodejs.org)
