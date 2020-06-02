@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+html h1, html h2, html h3, html h4, html h5, html h6 {
+  font-family: Ubuntu, 'sans serif';
+  color: #322153;
+}
+
+html body {
+  background: #f0f0f5;
+}
+
+html #page-home {
+  height: 100vh;
+  background: url(../assets/background.svg);
+  background-repeat: no-repeat;
+  background-position: 35vw bottom;
+}
+
+html #page-home .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+html #page-home .content header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 48px;
+}
+
+html #page-home .content header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  color: #322153;
+  text-decoration: none;
+}
+
+html #page-home .content header a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../assets/login.svg);
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+html #page-home .content main {
+  max-width: 560px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html #page-home .content main h1 {
+  font-size: 54px;
+}
+
+html #page-home .content main p {
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 24px;
+}
+
+html #page-home .content main a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  color: #fff;
+  background: #34cb79;
+  text-decoration: none;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+html #page-home .content main a strong {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+html #page-home .content main a span {
+  width: 72px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.08);
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+html #page-home .content main a span::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: url(../assets/search.svg);
+}
+
+html #page-home .content main a:hover {
+  background: #2fb86e;
+}
+
+@media (max-width: 600px) {
+  header a {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1025px) {
+  #page-home {
+    background-position: 70vw bottom;
+  }
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home header a {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #page-home main {
+    align-items: center;
+  }
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
