@@ -4,7 +4,6 @@
 
 <h2 align="center"><strong>Trilha Starter</strong></h2>
 
-
 <p align="center">
   
   <a href="/LICENSE" > 
