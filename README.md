@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="public/assets/logo.svg">
+    <img src="Starter/public/assets/logo.svg">
 </h1>
 
 <h2 align="center"><strong>Trilha Starter & Trilha Booster</strong></h2>
