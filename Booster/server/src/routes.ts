@@ -11,5 +11,4 @@ routes.post('/points', pointsController.create);
 routes.get('/points', pointsController.index);
 routes.get('/points/:id', pointsController.show);
 //index = listagem, show = um unico registro, create, update, destroy/delete
-
 export default routes;
