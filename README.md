@@ -41,6 +41,8 @@ A semana **Next Level Week**, promovida pela **Rocketseat** com duração de 7 d
   - [ReactJS](nodejs.org)
   - [React-Native](expressjs.org)
   - [TypeScript]()
+  - [Sqlite]()
+  - [Insomnia]()
 
 - Trilha Starter
   - [Node](nodejs.org)
